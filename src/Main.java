@@ -37,7 +37,9 @@ public class Main
 
             System.out.println(bil.motor.lyd());
 
-            input.getString(dialog.quit());
+           if(input.getString(dialog.quit()).equals("y")) {
+               break;
+           }
 
         }
 
